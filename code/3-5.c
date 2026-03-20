@@ -10,7 +10,7 @@ void my_sum(char arg1, ...) {
 
         for (int i = 0; i < cnt; i++) {
             printf("%s", va_arg(ap, char *));
-            printf(" ");
+            if (i != cnt-1 ) printf(" ");
         }
         printf("\n");
 

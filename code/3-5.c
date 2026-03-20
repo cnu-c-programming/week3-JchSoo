@@ -19,7 +19,7 @@ void my_sum(char arg1, ...) {
         int cnt = va_arg(ap, int);
 
         for (int i = 0; i < cnt; i++) {
-            printf("%c", va_arg(ap, char));
+            printf("%c", va_arg(ap, int));
         }
         printf("\n");
 

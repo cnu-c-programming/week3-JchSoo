@@ -25,9 +25,9 @@ int main(void) {
     int div_result = div(a, b);
     
     printf("%d + %d = %d\n", a, b, add_result);
-    printf("%d + %d = %d\n", a, b, sub_result);
-    printf("%d + %d = %d\n", a, b, mul_result);
-    printf("%d + %d = %d\n", a, b, div_result);
+    printf("%d - %d = %d\n", a, b, sub_result);
+    printf("%d * %d = %d\n", a, b, mul_result);
+    printf("%d / %d = %d\n", a, b, div_result);
 
     return 0;
 }
